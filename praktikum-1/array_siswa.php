@@ -37,7 +37,7 @@
     <div class="container">
         <table class="table table-primary table-striped table-hover justify-content-center">
             <thead>
-                <tr class="table-dark text-white">
+                <tr class="table-dark text-white text-center">
                     <th>No.</th>
                     <th>NIM</th>
                     <th>UTS</th>
@@ -53,7 +53,7 @@
             foreach($ar_nilai as $ns) : 
             $nilai_akhir = ($ns['uts'] + $ns['uas']+$ns['tugas'])/3;
             ?>
-                <tr>
+                <tr class="text-center">
                     <td><?= $no++ ?></td>
                     <td><?= $ns["nim"]; ?></td>
                     <td><?= $ns["uts"]; ?></td>
